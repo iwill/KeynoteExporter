@@ -19,7 +19,7 @@ tell application "Keynote"
 		if playing is true then tell the front document to stop
 		if not (exists document 1) then error number -128
 		
-		-- DERIVE NAME FOR NEW FOLDER FROM NAME OF THE FRONT DOCUMENT
+		-- DERIVE NAME FOR NEW FILE FROM NAME OF THE FRONT DOCUMENT
 		set textDocumentName to the name of the front document
 		if textDocumentName ends with ".key" then Â
 			set textDocumentName to text 1 thru -5 of textDocumentName
