@@ -6,6 +6,9 @@
 
 -- command + shift + L: to show Library of Apps
 
+-- <AppleScript Language Guide>
+-- https://developer.apple.com/library/archive/documentation/AppleScript/Conceptual/AppleScriptLangGuide/introduction/ASLR_intro.html
+
 -- <AppleScript 1-2-3>
 -- http://macosxautomation.com/applescript/firsttutorial/index.html
 
